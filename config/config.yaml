@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/nitinshivakumar/Chicken-Disease-Classification/blob/42847a9f5e0dbd95481545a5c3a362bdf5e3a62c/Chicken-fecal-images.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
